@@ -1,0 +1,32 @@
+#============================================================================================================
+#                                   PLUGIN LOUPE INVENTORY DE GHOSTSUSHI | CONFIG
+#============================================================================================================
+## discord.gg/easyteam
+
+##DEFINITION / LEGENDE  :
+## {playerattack} = Le pseudo du mec qui attack
+## {potions} = Les potions
+## {enderperl} = Les enderperls
+## {gapple} = Les gapple
+## {playerdamage} = Le pseudo du mec qui se prend le cou
+                               ## -------- [ ITEM ] ------------
+
+id-item: 1
+meta-item: 0
+
+time-cooldown: 5
+
+
+message-succes: "§l§cEasy§fTeam §7»§r§f Voici inventaire de §c{playerdamage}§f :\n§fEnderPerl: §c{enderperl}\n§fPotions: §c{potions}\n§fGapple: §c{gapple}"
+message-player: "§l§cEasy§fTeam §7»§r§f §c{playerattack} a regarder votre inventaire !"
+
+message-cooldown: "§l§c»§r§f Encore §c{time} secondes§f"
+
+#/*
+  # ╔═══╗ ╔════╗ ╔════╗ ╔╗ ╔╗ ╔════╗ ╔═══╗  ╔════╗  ╔═════╗╔═════╗
+  # ║╔══╝ ║╔═╗ ║ ║╔═══╝ ║║ ║║ ║╔╗╔╗║ ║╔══╝  ║╔═╗ ║  ║ ╔═╗ ║║ ╔═╗ ║
+  # ║╚══╗ ║╚═╝ ║ ║╚═══╗ ║╚═╝║ ╚╝║║╚╝ ║╚══╗  ║╚═╝ ║  ║ ║ ║ ║║ ║ ║ ║
+  # ║╔══╝ ║ ╔╗ ║ ╚═══╗║ ╚═║║╝   ║║   ║╔══╝  ║ ╔╗ ║  ║ ║ ║ ╚╝ ║ ║ ║
+  # ║╚══╗ ║ ║║ ║ ╔═══╝║   ║║    ║║   ║╚══╗  ║ ║║ ║  ║ ║ ╚════╝ ║ ║
+  # ╚═══╝ ╚═╝╚═╝ ╚════╝   ╚╝    ╚╝   ╚═══╝  ╚═╝╚═╝  ╚═╝        ╚═╝
+  # discord.gg/easyteam*/
